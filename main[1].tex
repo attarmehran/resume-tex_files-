@@ -1,0 +1,290 @@
+%-------------------------
+% Resume in Latex
+% Author : Shubhi Rani
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,10.8pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-3pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=blue,      
+    urlcolor=blue,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+}
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Mehran Attar}} \vspace{2mm}\\
+  Ph.D. Candidate and Research Assistant,\\
+  Location: Montreal, Quebec, Canada\\
+  Email address: mehran.attar@concordia.ca \\
+  Professional links: \href{https://www.linkedin.com/in/mehran-attar-1a241337/}{LinkedIn} $|$ \href{https://scholar.google.com/citations?user=nnLTy-oAAAAJ&hl=en}{GoogleScholar} $|$ \href{https://github.com/attarmehran}{GitHub}
+\end{tabular*}
+% \noindent\makebox[\linewidth]{\rule{19cm}{0.8pt}}
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Ph.D. in Information and Systems Engineering}{Sep. 2020 - Present}
+      {Institute for Information Systems Engineering, Concordia University}{Montreal, Canada}
+      
+	   %{\scriptsize \textit{Research Topic: security of cyber-physical systems using machine learning algorithms}}
+	    
+    \resumeSubheading
+      {M.Sc. in Electrical Engineering, Control Systems}{Sep. 2014 - March 2017}
+      {School of Electrical and Computer Engineering, Tarbiat Modares University}{Tehran, Iran}
+      
+      \resumeSubheading
+      {B.Sc. in Electrical Engineering, Control Systems}{Sep. 2009 - Feb. 2011}
+      {School of Electrical Engineering, Sharif University of Technology}{Tehran, Iran}
+      
+      \resumeSubheading
+      {B.Sc. in Electrical Engineering, Control Systems}{Jan. 2008 - July 2013}
+      {School of Electrical Engineering, Hamedan University of Technology}{Hamedan, Iran}
+      
+  \resumeSubHeadingListEnd
+
+%
+%-----------Awards-----------------
+\section{Honors and Awards}
+  \resumeSubHeadingListStart
+      \resumeSubheading
+      {Tuition Award of Excellence}{Sep. 2020}
+      {Scholarship Prize}{Concordia University, Montreal, Canada}
+      
+      %%%
+      
+    \resumeSubheading
+      {Ranked 3rd among all graduated students}{March 2017}
+      {M.Sc. Graduated Student}{Tarbiat Modares University, Tehran, Iran}
+
+%%%%
+
+    \resumeSubheading
+      {Semi-Finalist}{Dec. 2004}
+      {National Chemistry Olympiad}{Tehran, Iran}
+      
+\resumeSubHeadingListEnd
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Fields of Interest}
+\begin{multicols}{3}
+\begin{itemize}
+    \item \textbf{Computer Science}\\
+    Applied Machine Learning\\
+    Reinforcement Learning\\
+    Data Analysis\\
+    Applied Deep Learning
+    
+    \item \textbf{Control Theory}\\
+    Automatic Control\\
+    Data-Driven Control\\
+    Learning Control\\
+    Convex Optimization
+    
+    \item \textbf{Industrial Applications}\\
+    Wind Turbines\\
+    Cyber-Physical Systems
+\end{itemize}
+
+\end{multicols}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Professional Experiences}
+\subsection*{Industrial Experiences}
+
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Applied Machine Learning Engineer $\&$ Data Scientist}{April 2017 - Aug. 2021}
+      {\href{https://mapnagroup.com/?lang=en}{MAPNA Group}}{Karaj, Iran}
+      
+	   {\small
+	   \begin{itemize}
+	       \item Anomaly detection in wind turbine using machine learning
+methods based on SCADA data
+%
+\item Design and implementation of an online asset performance
+monitoring system using intelligent algorithms for wind
+turbines
+	   \end{itemize}
+	   
+	   }
+	   %%%%
+	   \resumeSubheading
+      {Control Systems Engineer}{April 2017 - Sep. 2018}
+      {\href{https://mapnagroup.com/?lang=en}{MAPNA Group}}{Karaj, Iran}
+      
+	   {\small 
+	   \begin{itemize}
+	       \item Configuration of data acquisition systems, e.g., MC
+Monitoring, VM-600, National Instrument System
+%
+\item Design and implementation of Kahak wind turbine simulator equipped with DFIG
+	   \end{itemize}
+	   
+	   }
+	   
+  \resumeSubHeadingListEnd
+
+\subsection*{Academic Experiences}
+  %%%
+    \resumeSubHeadingListStart
+    \resumeSubheading
+      {Research Scientist}{Sep. 2020 - Present}
+      {\href{https://users.encs.concordia.ca/~wlucia/Group.html}{Cyber-Physical Systems Security Research Group}}{Montreal, Canada}
+	   {\small
+	   \begin{itemize}
+	       \item Security of Cyber-Physical systems using machine learning methods
+	       \item Develop intelligent algorithms for the security of naval vessels (Department of National Defence, Canada) \href{https://www.concordia.ca/news/stories/2022/11/21/the-department-of-national-defence-awards-concordia-researcher-1-m-to-develop-new-strategies-against-cyberattacks.html}{link}
+	 \end{itemize}
+	   }
+	   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	   \resumeSubheading
+      {Research Assistant}{Nov. 2015 - April 2017}
+      {\href{https://www.modares.ac.ir/~majd}{Intelligent Control Systems Lab}}{Tarbiat Modares University, Tehran, Iran}
+	   {\small
+	   \begin{itemize}
+	       \item Dynamical Modeling of Quadruped Robot Using Artificial Intelligence Models methods based on SCADA data
+%
+\item Design and Implementation a Controller for Quadruped Robot \href{https://www.researchgate.net/publication/315684334_Estimation_of_external_forces_acting_on_the_legs_of_a_quadruped_robot_using_two_nonlinear_disturbance_observers}{(TMUBOT)}
+	   \end{itemize}}
+	   
+ \resumeSubHeadingListEnd
+ 
+ 
+%--------PROGRAMMING SKILLS------------
+\section{Software Skills}
+\begin{multicols}{2}
+\begin{itemize}
+    \item \textbf{Programming Languages}: Python - MATLAB
+    \item \textbf{Operating Systems}: Windows - Linux
+    \item \textbf{Data Science Libraries}: Pandas - Numpy - Scipy
+    \item \textbf{Plotting Libraries}: Matplotlib - Plotly
+    \item \textbf{Documentation Tools}: LaTeX - MS Office
+    \item \textbf{Version Control}: Git - GitHub
+    \item \textbf{Machine Learning $\&$ Deep Learning Libraries}: Scikit-learn - Pytorch
+\end{itemize}
+\end{multicols}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%
+\section{Journal publications}
+\begin{enumerate}[label={[\arabic*]}]
+  \item \textbf{Mehran Attar}, Walter Lucia, An Active Detection Strategy Based on Dimensionality Reduction for False
+Data Injection Attacks in Cyber-Physical Systems," IEEE Transactions on Control of Network Systems, 2023. \href{https://ieeexplore.ieee.org/abstract/document/10042059}{link}
+  \item \textbf{Mehran Attar}, Navid Dini, and Vahid Johari Majd, "Analysis and Design of a Time-Varying Linear
+Extended State Observer for a Class of Nonlinear Systems with Unknown Dynamics Using Spectral
+Lyapunov Function," Journal of Intelligent and Robotic Systems, vol. 94, pages 405-421, 2018. \href{https://link.springer.com/article/10.1007/s10846-018-0935-0}{link}
+  \item \textbf{Mehran Attar}, Mohammadreza Dabirian, "Reinforcement Learning for Learning of Dynamical
+Systems in Uncertain Environment: A Tutorial," arXiv preprint arXiv: 1905.07727, 2019. \href{https://arxiv.org/abs/1905.07727}{link}
+\end{enumerate}
+
+\section{Conference Proceedings}
+\begin{enumerate}[label={[\arabic*]}]
+  \item \textbf{Mehran Attar}, Mahdi Khodabandeh, "Design a Hybrid Model Predictive Controller for a DC-DC
+Converter," 12th International Seminar on Power Electronics Technologies (TPES 2015), March 2015,
+Sharif University of Technology, Tehran, Iran. (written in Persian)
+  \item \textbf{Mehran Attar}, Navid Dini, Farid Edrisi and V.j.Majd, "Estimation of Decentralized Unknown Dynamics
+for a 2DOF Manipulator Using a Time-Varying Extended State Observer" The 4th International
+Conference on Robotics and Mechatronics (ICROM 2016), Oct 2016, University of Tehran, Tehran, Iran. \href{https://ieeexplore.ieee.org/document/7886827}{link}
+  \item Farid Edrisi, Vahid Johari Majd, \textbf{Mehran Attar}, and Navid Dini, "Modifying the Attitude of Quadruped
+Robot Body against Disturbances via Data," The 4th International Conference on Robotics and
+Mechatronics (ICROM 2016), Oct 2016, University of Tehran, Tehran, Iran. \href{https://ieeexplore.ieee.org/document/7886817}{link}
+%
+\item Navid Dini, Vahid Johari Majd, Farid Edrisi and \textbf{Mehran Attar}, "Estimation of External Forces Acting on
+the Legs of a Quadruped Robot using Two Nonlinear Disturbance Observers," The 4th International
+Conference on Robotics and Mechatronics (ICROM 2016), Oct 2016, University of Tehran, Tehran, Iran. \href{https://ieeexplore.ieee.org/document/7886820}{link}
+\end{enumerate}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{References}
+
+     \begin{itemize}
+         \item \href{https://users.encs.concordia.ca/~wlucia/index.html}{\textbf{Prof. Walter Lucia}}\\ 
+         Institute for Information Systems Engineering, Concordia University \\
+         1455 de Maisonneuve Blvd. West, EV009.185 Montreal, Quebec, Canada, H3G 1M8\\
+         Phone: (514) 848-2424 ext. 3982\\
+         Email: \href{mailto: walter.lucia@concordia.ca}{ walter.lucia@concordia.ca}
+         %
+         \item \href{https://www.modares.ac.ir/~majd}{\textbf{Prof. Vahid Johari Majd}}\\
+         Department of Electrical and Computer Engineering, Tarbiat Modares University\\
+         P.O. Box 14115-194, Tehran, Iran\\
+         Phone: (+9821) 82883353\\
+         Email: \href{mailto: majd@modares.ac.ir}{ majd@modares.ac.ir}
+     \end{itemize}
+     
+%-------------------------------------------
+\end{document}
