@@ -1,5 +1,5 @@
 %-------------------------
-% Resume in Latex 2024
+% Resume in Latex
 % Author : Mehran Attar
 %------------------------
 
@@ -9,6 +9,7 @@
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
 \usepackage{marvosym}
+\usepackage{ragged2e}
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{verbatim}
 \usepackage{enumitem}
@@ -87,33 +88,149 @@
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{{\LARGE Mehran Attar}} \vspace{2mm}\\
-  Ph.D. Candidate and Research Assistant,\\
-  Location: Montreal, Quebec, Canada\\
-  Email address: mehran.attar@concordia.ca \\
-  Professional links: \href{https://www.linkedin.com/in/mehran-attar-1a241337/}{LinkedIn} $|$ \href{https://scholar.google.com/citations?user=nnLTy-oAAAAJ&hl=en}{GoogleScholar} $|$ \href{https://github.com/attarmehran}{GitHub}
+  \textbf{{\LARGE Mehran Attar}} \\
+  Ph.D. Research Scientist
 \end{tabular*}
+%
+\begin{multicols}{2}
+  Location: Montreal, Quebec, Canada\\
+  Email address: \href{mailto:mehran.attar@gmail.com}{mehran.attar@gmail.com}\\
+  Professional links: \href{https://www.linkedin.com/in/mehran-attar-1a241337/}{LinkedIn} $|$ \href{https://scholar.google.com/citations?user=nnLTy-oAAAAJ&hl=en}{GoogleScholar} $|$ \href{https://github.com/attarmehran}{GitHub}
+\end{multicols}
 % \noindent\makebox[\linewidth]{\rule{19cm}{0.8pt}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Summary}
+\justifying
+Ph.D. Researcher with experience in machine learning, cybersecurity, and control systems engineering. Adept at conducting cutting-edge research in data-driven methods for cyber-physical systems security, with a strong focus on safety and performance under network attacks. Skilled in programming languages ({\color{blue}Python, C, MATLAB}) and machine learning and deep learning tools ({\color{blue}Scikit-learn, PyTorch}), with a passion for solving complex problems through data-driven methods and advanced control techniques.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Professional Experiences}
+\subsection*{Industrial Experiences}
+
+  \resumeSubHeadingListStart
+    \resumeSubheading
+    {Machine Learning Researcher}{Jan. 2024 - Present}
+      {\href{https://www.ericsson.com/en}{Ericsson Canada}}{Montreal, Canada}
+      {\small
+	   \begin{itemize}
+            \item Develop quantum-inspired algorithms to solve constrained optimization problems 
+            %
+            \item Develop a Signed Particle Formulation of Quantum Mechanics to enhance the parallelization computation capacity of Deep Neural Networks (DNNs) training process.
+            \item Design data-driven control architectures to preserve the safety and security of constrained cyber-physical systems using QiML-based methods
+	   \end{itemize}
+	   
+	   }
+
+    \resumeSubheading
+    {Cyber Security Researcher}{Sep. 2020 - Present}
+      {\href{https://users.encs.concordia.ca/~wlucia/Research.html}{PreCySe}}{Montreal, Canada}
+      {\small
+	   \begin{itemize}
+            \item Design and implementation of  data-driven algorithms for the safety and security of naval vessels (project for Department of National Defence, Canada) \href{https://www.concordia.ca/news/stories/2022/11/21/the-department-of-national-defence-awards-concordia-researcher-1-m-to-develop-new-strategies-against-cyberattacks.html}{link} 
+	   \end{itemize}
+	   
+	   }
+
+%   
+    %%%%%
+    \resumeSubheading
+      {Applied Machine Learning Enginneer}{April 2017 - Aug. 2021}
+      {\href{https://mapnagroup.com/?lang=en}{MAPNA Group}}{Karaj, Iran}
+      
+	   {\small
+	   \begin{itemize}
+    \justifying
+	       \item Anomaly detection in wind turbine SCADA data using machine learning techniques.
+        %
+        \item Develop time series models to predict maintenance needs and forecast potential failures in wind turbines
+        %
+        \item Integration of SCADA data with CMS data to design a comprehensive anomaly detection system. 
+        %
+        
+%
+% \item Design and implementation of an online asset performance
+% monitoring system using intelligent algorithms for wind
+turbines
+	   \end{itemize}
+	   
+	   }
+	   %%%%
+	   \resumeSubheading
+      {Control Systems Engineer}{April 2017 - Sep. 2018}
+      {\href{https://mapnagroup.com/?lang=en}{MAPNA Group}}{Karaj, Iran}
+      
+	   {\small 
+	   \begin{itemize}
+% 	       \item Configuration of data acquisition systems, e.g., MC
+% Monitoring, VM-600, National Instrument System
+%
+\item Design and implementation of a wind turbine simulator equipped with DFIG generator 
+	   \end{itemize}
+	   
+	   }
+	   
+  \resumeSubHeadingListEnd
+
+\subsection*{Academic Experiences}
+  %%%
+    \resumeSubHeadingListStart
+    \resumeSubheading
+      {Research Assistant}{Sep. 2020 - Present}
+      {\href{https://users.encs.concordia.ca/~wlucia/Group.html}{Cyber-Physical Systems Security Research Group}}{Montreal, Canada}
+	   {\small
+	   \begin{itemize}
+     %
+	       \item Develop data-driven methods for the safety and security of constrained cyber-physical systems (Ph.D. research)     
+	 \end{itemize}
+	   }
+	   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	   \resumeSubheading
+      {Research Assistant}{Nov. 2015 - April 2017}
+      {\href{https://www.modares.ac.ir/~majd}{Intelligent Control Systems Lab}}{Tarbiat Modares University, Tehran, Iran}
+	   {\small
+	   \begin{itemize}
+	       \item Dynamical Modeling of Quadruped Robot Using Artificial Intelligence Models methods based on SCADA data
+%
+\item Design and Implementation a Controller for Quadruped Robot \href{https://www.researchgate.net/publication/315684334_Estimation_of_external_forces_acting_on_the_legs_of_a_quadruped_robot_using_two_nonlinear_disturbance_observers}{(TMUBOT)}
+	   \end{itemize}}
+	   
+ \resumeSubHeadingListEnd
+ 
+ 
+%--------PROGRAMMING SKILLS------------
+\section{Software Skills}
+\begin{multicols}{2}
+\begin{itemize}
+    \item \textbf{Programming Languages}: Python - C - MATLAB
+    \item \textbf{Operating Systems}: Linux - Windows
+    \item \textbf{Data Science Libraries}: Pandas - Numpy - Scipy
+    \item \textbf{Plotting Libraries}: Matplotlib - Plotly
+    \item \textbf{Documentation Tools}: LaTeX - MS Office
+    \item \textbf{Version Control}: Git - GitHub
+    \item \textbf{Machine Learning $\&$ Deep Learning Libraries}: Scikit-learn - Pytorch
+    \item \textbf{Database}: Pyspark
+\end{itemize}
+\end{multicols}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %-----------EDUCATION-----------------
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Ph.D. in Information and Systems Engineering}{Sep. 2020 - Present}
-      {Institute for Information Systems Engineering, Concordia University}{Montreal, Canada}
+      {Ph.D. in Information and Systems Engineering}{Sep. 2020 - Dec. 2024}
+      {\href{https://www.concordia.ca/ginacody/info-systems-eng.html}{Institute for Information Systems Engineering, Concordia University}}{Montreal, Canada}
       
 	   %{\scriptsize \textit{Research Topic: security of cyber-physical systems using machine learning algorithms}}
 	    
     \resumeSubheading
       {M.Sc. in Electrical Engineering, Control Systems}{Sep. 2014 - March 2017}
-      {School of Electrical and Computer Engineering, Tarbiat Modares University}{Tehran, Iran}
+      {\href{https://en-ece.modares.ac.ir/}{School of Electrical and Computer Engineering, Tarbiat Modares University}}{Tehran, Iran}
       
       \resumeSubheading
       {B.Sc. in Electrical Engineering, Control Systems}{Sep. 2009 - Feb. 2011}
-      {School of Electrical Engineering, Sharif University of Technology}{Tehran, Iran}
+      {\href{https://www.ee.sharif.ir/en/home}{School of Electrical Engineering, Sharif University of Technology}}{Tehran, Iran}
       
       \resumeSubheading
       {B.Sc. in Electrical Engineering, Control Systems}{Jan. 2008 - July 2013}
-      {School of Electrical Engineering, Hamedan University of Technology}{Hamedan, Iran}
+      {\href{https://en.hut.ac.ir/electrical-engineering}{School of Electrical Engineering, Hamedan University of Technology}}{Hamedan, Iran}
       
   \resumeSubHeadingListEnd
 
@@ -146,13 +263,11 @@
     Applied Machine Learning\\
     Applied Deep Learning\\
     Reinforcement Learning\\
-    Natural Language Processing\\
     
     
     \item \textbf{Control Theory}\\
     Automatic Control\\
     Data-Driven Control\\
-    Learning Control\\
     Convex Optimization
     
     \item \textbf{Industrial Applications}\\
@@ -162,98 +277,13 @@
 \end{itemize}
 
 \end{multicols}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Professional Experiences}
-\subsection*{Industrial Experiences}
 
-  \resumeSubHeadingListStart
-    \resumeSubheading
-    {Applied Machine Learning Intern}{Jan. 2024 - Present}
-      {\href{https://www.ericsson.com/en}{Ericsson}}{Montreal, Canada}
-      
-	   
-    %%%%%
-    \resumeSubheading
-      {Applied Industrial Machine Learning Research Scientist}{April 2017 - Aug. 2021}
-      {\href{https://mapnagroup.com/?lang=en}{MAPNA Group}}{Karaj, Iran}
-      
-	   {\small
-	   \begin{itemize}
-	       \item Anomaly detection in wind turbine using machine learning
-methods based on SCADA data
-%
-\item Design and implementation of an online asset performance
-monitoring system using intelligent algorithms for wind
-turbines
-	   \end{itemize}
-	   
-	   }
-	   %%%%
-	   \resumeSubheading
-      {Control Systems Engineer}{April 2017 - Sep. 2018}
-      {\href{https://mapnagroup.com/?lang=en}{MAPNA Group}}{Karaj, Iran}
-      
-	   {\small 
-	   \begin{itemize}
-	       \item Configuration of data acquisition systems, e.g., MC
-Monitoring, VM-600, National Instrument System
-%
-\item Design and implementation of Kahak wind turbine simulator equipped with DFIG
-	   \end{itemize}
-	   
-	   }
-	   
-  \resumeSubHeadingListEnd
-
-\subsection*{Academic Experiences}
-  %%%
-    \resumeSubHeadingListStart
-    \resumeSubheading
-      {Research Scientist}{Sep. 2020 - Present}
-      {\href{https://users.encs.concordia.ca/~wlucia/Group.html}{Cyber-Physical Systems Security Research Group}}{Montreal, Canada}
-	   {\small
-	   \begin{itemize}
-     \item Design and implementation of  intelligent algorithms for the safety and security of naval vessels (project for Department of National Defence, Canada) \href{https://www.concordia.ca/news/stories/2022/11/21/the-department-of-national-defence-awards-concordia-researcher-1-m-to-develop-new-strategies-against-cyberattacks.html}{link}
-     %
-	       \item Security and safety of cyber-physical systems using data-driven and artificial intelligence methods
-	      
-	 \end{itemize}
-	   }
-	   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	   \resumeSubheading
-      {Research Assistant}{Nov. 2015 - April 2017}
-      {\href{https://www.modares.ac.ir/~majd}{Intelligent Control Systems Lab}}{Tarbiat Modares University, Tehran, Iran}
-	   {\small
-	   \begin{itemize}
-	       \item Dynamical Modeling of Quadruped Robot Using Artificial Intelligence Models methods based on SCADA data
-%
-\item Design and Implementation a Controller for Quadruped Robot \href{https://www.researchgate.net/publication/315684334_Estimation_of_external_forces_acting_on_the_legs_of_a_quadruped_robot_using_two_nonlinear_disturbance_observers}{(TMUBOT)}
-	   \end{itemize}}
-	   
- \resumeSubHeadingListEnd
- 
- 
-%--------PROGRAMMING SKILLS------------
-\section{Software Skills}
-\begin{multicols}{2}
-\begin{itemize}
-    \item \textbf{Programming Languages}: Python - MATLAB
-    \item \textbf{Operating Systems}: Windows - Linux
-    \item \textbf{Data Science Libraries}: Pandas - Numpy - Scipy
-    \item \textbf{Plotting Libraries}: Matplotlib - Plotly
-    \item \textbf{Documentation Tools}: LaTeX - MS Office
-    \item \textbf{Version Control}: Git - GitHub
-    \item \textbf{Machine Learning $\&$ Deep Learning Libraries}: Scikit-learn - Pytorch
-    \item \textbf{Database}: Pyspark
-\end{itemize}
-\end{multicols}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 %%%%%%%%%%%%%
 \section{Journal publications}
 \begin{enumerate}[label={[\arabic*]}]
-\item \textbf{Mehran Attar} and Walter Lucia, "A Data-Driven Safety Preserving Control Architecture for Constrained Cyber-Physical Systems," Submitted to IEEE Control System Letters (L-CSS), 2024. \href{https://arxiv.org/abs/2312.00658}{link}
+\item \textbf{Mehran Attar} and Walter Lucia, "A Data-Driven Safety Preserving Control Architecture for Constrained Cyber-Physical Systems," accepted to publish in International Journal of Robust and Nonlinear Control, 2024. \href{https://arxiv.org/abs/2312.00658}{link}
 % 
 \item \textbf{Mehran Attar} and Walter Lucia, "Data-Driven Robust Backward Reachable Sets for Set-Theoretic Model Predictive Control," IEEE Control System Letters (L-CSS), 2023. \href{https://ieeexplore.ieee.org/abstract/document/10153604}{link}
 % 
@@ -267,9 +297,9 @@ Systems in Uncertain Environment: A Tutorial," arXiv preprint arXiv: 1905.07727,
 
 \section{Conference Proceedings}
 \begin{enumerate}[label={[\arabic*]}]
-  \item \textbf{Mehran Attar}, Mahdi Khodabandeh, "Design a Hybrid Model Predictive Controller for a DC-DC
-Converter," 12th International Seminar on Power Electronics Technologies (TPES 2015), March 2015,
-Sharif University of Technology, Tehran, Iran. (written in Persian)
+%   \item \textbf{Mehran Attar}, Mahdi Khodabandeh, "Design a Hybrid Model Predictive Controller for a DC-DC
+% Converter," 12th International Seminar on Power Electronics Technologies (TPES 2015), March 2015,
+% Sharif University of Technology, Tehran, Iran. (written in Persian)
   \item \textbf{Mehran Attar}, Navid Dini, Farid Edrisi and V.j.Majd, "Estimation of Decentralized Unknown Dynamics
 for a 2DOF Manipulator Using a Time-Varying Extended State Observer" The 4th International
 Conference on Robotics and Mechatronics (ICROM 2016), Oct 2016, University of Tehran, Tehran, Iran. \href{https://ieeexplore.ieee.org/document/7886827}{link}
@@ -282,22 +312,28 @@ the Legs of a Quadruped Robot using Two Nonlinear Disturbance Observers," The 4t
 Conference on Robotics and Mechatronics (ICROM 2016), Oct 2016, University of Tehran, Tehran, Iran. \href{https://ieeexplore.ieee.org/document/7886820}{link}
 \end{enumerate}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \newpage
+% \section{References}
 
-\section{References}
-
-     \begin{itemize}
-         \item \href{https://users.encs.concordia.ca/~wlucia/index.html}{\textbf{Prof. Walter Lucia}}\\ 
-         Institute for Information Systems Engineering, Concordia University \\
-         1455 de Maisonneuve Blvd. West, EV009.185 Montreal, Quebec, Canada, H3G 1M8\\
-         Phone: (514) 848-2424 ext. 3982\\
-         Email: \href{mailto: walter.lucia@concordia.ca}{ walter.lucia@concordia.ca}
-         %
-         \item \href{https://www.modares.ac.ir/~majd}{\textbf{Prof. Vahid Johari Majd}}\\
-         Department of Electrical and Computer Engineering, Tarbiat Modares University\\
-         P.O. Box 14115-194, Tehran, Iran\\
-         Phone: (+9821) 82883353\\
-         Email: \href{mailto: majd@modares.ac.ir}{ majd@modares.ac.ir}
-     \end{itemize}
+%      \begin{itemize}
+%          \item \href{https://users.encs.concordia.ca/~wlucia/index.html}{\textbf{Prof. Walter Lucia}}\\ 
+%          Institute for Information Systems Engineering, Concordia University \\
+%          1455 de Maisonneuve Blvd. West, EV9.185 Montreal, Quebec, Canada, H3G 1M8\\
+%          Phone: (514) 848-2424 ext. 3982\\
+%          Email: \href{mailto: walter.lucia@concordia.ca}{ walter.lucia@concordia.ca}
+%          %
+%         \item \href{https://users.encs.concordia.ca/~kash/}{\textbf{Prof. Kash Khorasani}}\\
+%          Department of Electrical and Computer Engineering, Concordia University\\
+%          1455 de Maisonneuve Blvd. West, EV5.125 Montreal, Quebec, Canada, H3G 1M8\\
+%          Phone: (514) 848-2424 ext. 3086\\
+%          Email: \href{kash@ece.concordia.ca}{ kash@ece.concordia.ca}
+%          %
+%          % \item \href{https://www.modares.ac.ir/~majd}{\textbf{Prof. Vahid Johari Majd}}\\
+%          % Department of Electrical and Computer Engineering, Tarbiat Modares University\\
+%          % P.O. Box 14115-194, Tehran, Iran\\
+%          % Phone: (+9821) 82883353\\
+%          % Email: \href{mailto: majd@modares.ac.ir}{ majd@modares.ac.ir}
+%      \end{itemize}
      
 %-------------------------------------------
 \end{document}
